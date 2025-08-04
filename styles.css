@@ -11,6 +11,17 @@ header{
 	background-color: #010232;
 }
 
+header h1{
+	font-family: 'Ougkeh', sans-serif;
+	color:honeydew;
+	position: absolute;
+    	top: 10%;
+    	left: 50%;
+    	transform: translate(-50%, -50%); /* Perfect center */
+	font-size: 5rem;
+    	text-shadow: 2px 2px 8px rgba(0,0,0,0.7); /* Optional for better readability */
+}
+
 nav{
 	margin-bottom: 0px;
 }
@@ -33,7 +44,7 @@ nav ul li a{
 	padding: 5px 15px;
 	display: block;
 	text-transform: uppercase;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Ougkeh', sans-serif;
 }
 
 nav ul li a:hover{
@@ -47,7 +58,7 @@ main{
 	font-size: 1.25em;
 	color: #f5f5f5;
 	margin-top: 2px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Ougkeh', sans-serif;
 	justify-content: center;
 }
 
@@ -83,16 +94,18 @@ aside {
 	padding: .05%;
 	margin-top: 1%%;
     border-radius: 5px 35px;
-	border-style: dotted;
-	border-color: aliceblue;
+	border-style: groove;
+	font-family: 'Ougkeh', sans-serif;
 }
 
 h2 {
 	color: #444
+	font-family: 'Ougkeh', sans-serif;
 }
 
 article ul li{
 	color: #444
+	font-family: 'Ougkeh', sans-serif;
 }
 
 .details {
@@ -100,6 +113,7 @@ article ul li{
     margin-top: 5px;
     color: #444;
 	font-size: medium;
+	font-family: 'Ougkeh', sans-serif;
 }
 
 .toggle-btn {
@@ -166,4 +180,3 @@ section:hover {
         border-radius: 5px 45px;
 	}
 }
-
