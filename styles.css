@@ -15,11 +15,11 @@ header h1{
 	font-family: 'Ougkeh', sans-serif;
 	color:honeydew;
 	position: absolute;
-    	top: 10%;
-    	left: 50%;
-    	transform: translate(-50%, -50%); /* Perfect center */
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Perfect center */
 	font-size: 5rem;
-    	text-shadow: 2px 2px 8px rgba(0,0,0,0.7); /* Optional for better readability */
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7); /* Optional for better readability */
 }
 
 nav{
@@ -89,6 +89,25 @@ article {
 	padding: 1%;
 }
 
+.profile-card {
+    background-color: #367588;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 5px 35px;
+    color: white;
+    text-align: center;
+}
+
+.profile-card img {
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-card figcaption {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
 aside {
 	background-color: #3a4c5c;
 	padding: .05%;
@@ -106,6 +125,8 @@ h2 {
 article ul li{
 	color: #444
 	font-family: 'Ougkeh', sans-serif;
+	list-style: none;
+    padding-left: 0;
 }
 
 .details {
