@@ -191,7 +191,7 @@ section:hover {
 }
 
 /* Media Query for Desktop Viewport */
-@media screen and (min-width: 1024px), print {
+@media screen and (min-width: 1900px), print {
 	.grid {
 		grid-template-columns: auto auto auto auto;
 	}
@@ -207,5 +207,6 @@ section:hover {
         border-radius: 5px 45px;
 	}
 }
+
 
 
