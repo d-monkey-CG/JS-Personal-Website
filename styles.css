@@ -45,6 +45,7 @@ nav ul li a{
 	display: block;
 	text-transform: uppercase;
 	font-family: 'Ougkeh', sans-serif;
+	font-size: 1.5rem;
 }
 
 nav ul li a:hover{
@@ -206,4 +207,5 @@ section:hover {
         border-radius: 5px 45px;
 	}
 }
+
 
