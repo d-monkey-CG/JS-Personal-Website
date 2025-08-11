@@ -18,7 +18,7 @@ header h1{
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%); /* Perfect center */
-	font-size: 4rem;
+	font-size: 4.5rem;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.7); /* Optional for better readability */
 }
 
@@ -108,7 +108,7 @@ article {
 
 .profile-card figcaption {
     margin-top: 10px;
-    font-size: 1.75rem;
+    font-size: 3rem;
 }
 
 .profile-card2 {
