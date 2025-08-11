@@ -97,6 +97,8 @@ article {
     border-radius: 5px 35px;
     color: white;
     text-align: center;
+	position: relative;
+    overflow: hidden;
 }
 
 .profile-card img {
@@ -109,18 +111,23 @@ article {
     font-size: 1rem;
 }
 
+.profile-card2 {
+	display: none;
+}
+
 aside {
 	background-color: #3a4c5c;
 	padding: .05%;
-	margin-top: 1%%;
+	margin-top: 1%;
     border-radius: 5px 35px;
 	border-style: groove;
 	font-family: 'Ougkeh', sans-serif;
 }
 
 h2 {
-	color: #444
+	color: #367588;
 	font-family: 'Ougkeh', sans-serif;
+	font-size: 2.5rem;
 }
 
 article ul li{
@@ -191,20 +198,56 @@ section:hover {
 }
 
 /* Media Query for Desktop Viewport */
-@media screen and (min-width: 1900px), print {
+@media screen and (min-width: 1500px), print {
 	.grid {
 		grid-template-columns: auto auto auto auto;
-	}
-
-	header h1{
-    top: 10%;
-	font-size: 5rem;
 	}
 
 	aside {
 		grid-column: 1 / span 4;
 		padding: 1%;
         border-radius: 5px 45px;
+	}
+
+	.profile-card {
+    	display: none;
+	}
+
+	.profile-card img {
+    	display: none;
+	}
+
+	.profile-card figcaption {
+    	display: none;
+	}
+
+	.profile-card2 {
+		display: block;
+    	background-color: #367588;
+    	padding: 1%;
+    	margin-top: 1%;
+    	border-radius: 5px 35px;
+    	color: white;
+    	text-align: center;
+		position: relative;
+    	overflow: hidden;
+	}
+
+	.profile-card img {
+    	display: block;
+    	margin: 0 auto;
+	}
+
+	.profile-card2 figcaption {
+		display: block;
+    	margin-top: 10px;
+    	font-size: 1.5rem;
+	}
+
+	h2 {
+		color: #367588;
+		font-family: 'Ougkeh', sans-serif;
+		font-size: 3rem;
 	}
 }
 
