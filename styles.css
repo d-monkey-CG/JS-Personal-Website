@@ -15,10 +15,10 @@ header h1{
 	font-family: 'Ougkeh', sans-serif;
 	color:honeydew;
 	position: absolute;
-    top: 10%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%); /* Perfect center */
-	font-size: 5rem;
+	font-size: 4rem;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.7); /* Optional for better readability */
 }
 
@@ -195,9 +195,15 @@ section:hover {
 		grid-template-columns: auto auto auto auto;
 	}
 
+	header h1{
+    top: 10%;
+	font-size: 5rem;
+	}
+
 	aside {
 		grid-column: 1 / span 4;
 		padding: 1%;
         border-radius: 5px 45px;
 	}
 }
+
