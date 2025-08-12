@@ -44,7 +44,16 @@
 				<div class="desc">
 				A playful yet technical R and Quarto project analyzing a Kaggle dataset of every Scooby-Doo episode and movie. Using tidyverse for data wrangling and ggplot2 for visualization, I identified which characters were “most likely” to experience certain events—like Daphne being kidnapped—by transforming, aggregating, and ranking event data. Presented in an interactive Quarto revealjs slide deck, this project demonstrates my ability to clean and reshape data, perform exploratory analysis, and create engaging, story-driven visualizations.
 				</div>
-				<a href="scooby-awards.mp4" target="_blank">Watch my presentation of Scooby-Doo Analysis with R and Quarto</a>
+				<button id="openVideo">Watch my presentation of Scooby-Doo Analysis with R and Quarto</button>
+
+			<!-- Modal -->
+				<div id="videoModal" class="modal">
+  					<span class="close">&times;</span>
+  						<video class="modal-content" controls>
+    						<source src="scooby-awards.mp4" type="video/mp4">
+    						Your browser does not support HTML video.
+  						</video>
+				</div>	
 			</section>
 		  
 		  	<section>
@@ -80,6 +89,7 @@
 </body>
 
 </html>
+
 
 
 
