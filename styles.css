@@ -247,6 +247,7 @@ section:hover {
 		grid-column: 1 / span 2;
 		padding: 1%;
         border-radius: 5px 45px;
+		font-size: 1.5rem;
 	}
 }
 
@@ -260,6 +261,7 @@ section:hover {
 		grid-column: 1 / span 4;
 		padding: 1%;
         border-radius: 5px 45px;
+		font-size: 1.5rem;
 	}
 
 	.profile-card {
@@ -303,6 +305,7 @@ section:hover {
 		font-size: 3rem;
 	}
 }
+
 
 
 
