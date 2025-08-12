@@ -180,7 +180,12 @@ section:hover {
 .grid .desc {
 	padding: 10px;
 	text-align: center;
-	font-size: 20px;
+	font-size: 18px;
+}
+
+.grid section a {
+	color:#010232;
+	text-align: center;
 }
 
 /*to open device mode in google chrome: ctrl + shift + I OR F12 in Windows*/
@@ -189,7 +194,7 @@ section:hover {
     .grid {
 		display: grid;
 		grid-template-columns: auto auto;
-		grid-gap: 20px;}
+		grid-gap: 15px;}
 
 	aside {
 		grid-column: 1 / span 2;
@@ -208,7 +213,6 @@ section:hover {
 		grid-column: 1 / span 4;
 		padding: 1%;
         border-radius: 5px 45px;
-		font-size: 1.5rem;
 	}
 
 	.profile-card {
@@ -247,9 +251,9 @@ section:hover {
 	}
 
 	h2 {
-		color: #3a4c5c;
+		color: #367588;
 		font-family: 'Ougkeh', sans-serif;
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 }
 
