@@ -11,9 +11,9 @@ header{
 	background-color: #010232;
 }
 
-header h1{
+header h1 a{
 	font-family: 'Ougkeh', sans-serif;
-	color: white;
+	color: honeydew;
 	position: absolute;
     top: 5%;
     left: 50%;
@@ -305,6 +305,7 @@ section:hover {
 		font-size: 3rem;
 	}
 }
+
 
 
 
